@@ -1,0 +1,148 @@
+
+
+.custom{
+    display: flex;
+}
+
+
+
+
+.card{
+    margin: 1rem 0 1rem 0;
+}
+
+.main-image{
+
+    background-image: url("images/slide2.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+   
+}
+
+.row .logo .logoimg{
+    height: 150px;
+    width: 100%;
+    
+    
+}
+
+
+.container i{
+    margin-left:20px ;
+}
+
+
+
+.container .row{
+    row-gap: 10px;
+}
+
+.card-wrapper{
+    display: flex;
+   
+}
+
+
+
+.container-fluid .card img{
+    width: 200px;
+    height: 300px;
+    
+    
+}
+
+
+
+/*contact us page css*/
+
+.contactusimage{
+    margin: 12% 0 0 50px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.contactusform{
+    margin: 10% 0 0 0;  
+}
+
+@media (max-width: 576px) { 
+
+    .imagediv{
+        width: 100%;
+    }
+ }
+
+ /*cart style*/
+
+
+.summary-div{
+    display: grid;
+    align-items: flex-start;
+ 
+  
+  
+}
+
+.summary-div2{
+    display: grid;
+    align-items: flex-start;
+ 
+ 
+  
+}
+.summary-div3{
+    display: grid;
+    align-items: flex-start;
+ 
+   margin-bottom: 200px;
+  
+}
+.cart-card{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    padding-left: 50px;
+}
+.summary-table{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding-left: 50%;
+}
+.no-of-items{
+    height: 5%;
+   margin-top: 10%;
+   
+}
+.delete_icon{
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.display-box{
+    width: 50px;
+    margin-top: 20%;
+}
+.summary-table2{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    
+}
+
+
+.checkout-btn{
+    margin-left: 25%;
+}
+
+.details{
+    margin-top: 30%;
+}
+
+
+.backgroundcolor{
+    background-color: blue;
+}

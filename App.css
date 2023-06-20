@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sitelogo{
+  height: 50px;
+  width: 200px;
+}
+.inputsearchbox{
+  border-radius: 0 0px 0 15px;
+  
+  height: 37px;
+ 
+}
+.searchbutton{
+  border-radius: 0 15px 0 0;
+  height: 38px;
+}
+.custom{
+  display: flex;
+}
+@media only screen and (max-width:768px) {
+  .searchbox{
+      width:100%;
+      
+  }
+  .loginbutton{
+      padding-left: .7rem;
+      padding-top: .7rem;
+     
+  }
+  .carticon{
+     padding-top: .7rem;
+     
+     width: 100%;
+  }
+ 
+  
+}
+
+
+@media only screen and (max-width:990px){
+
+.loginbutton{
+      padding-left: .7rem;
+      padding-top: .7rem;
+      width: 100%;
+     
+  }
+  .carticon{
+     padding-top: .7rem;
+     
+     width: 100%;
+  }
+}
+@media only screen and (min-width:991px){
+  .inputsearchbox{
+      margin-left: -100px;
+      width: 70%;
+  }
+
+}
+
+
+.loginbutton{
+  margin-left: 1rem;
+}
+
+.card{
+  margin: 1rem 0 1rem 0;
+}
+
+
+
+.row .logo .logoimg{
+  height: 150px;
+  width: 100%;
+  
+}
+
+
+.container i{
+  margin-left:20px ;
+}
+
+
+
+.container .row{
+  row-gap: 10px;
+}
+
+.card-wrapper{
+  display: flex;
+ 
+}
+
+
+
+.container-fluid .card img{
+  width: 200px;
+  height: 300px;
+  
+  
+}
+
+
+
+/*contact us page css*/
+
+.contactusimage{
+  margin: 12% 0 0 50px;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+.contactusform{
+  margin: 10% 0 0 0;  
+}
+
+@media (max-width: 576px) { 
+
+  .imagediv{
+      width: 100%;
+  }
+}
+
+/*cart style*/
+
+
+.summary-div{
+  display: grid;
+  align-items: flex-start;
+
+
+
+}
+
+.summary-div2{
+  display: grid;
+  align-items: flex-start;
+
+
+
+}
+.summary-div3{
+  display: grid;
+  align-items: flex-start;
+
+ margin-bottom: 200px;
+
+}
+.cart-card{
+  display: grid;
+  grid-template-columns: auto auto auto  ;
+  padding-left: 50px;
+}
+.summary-table{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  padding-left: 50%;
+}
+.no-of-items{
+  height: 5%;
+ margin-top: 10%;
+ 
+}
+.delete_icon{
+  margin-top: 10%;
+  padding: 10px;
+}
+
+.display-box{
+  width: 50px;
+  margin-top: 20%;
+}
+.summary-table2{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  
+}
+
+
+.checkout-btn{
+  margin-left: 25%;
+}
+
+.details{
+  margin-top: 30%;
+}

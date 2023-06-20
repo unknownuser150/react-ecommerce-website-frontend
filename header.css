@@ -1,0 +1,66 @@
+.sitelogo{
+    height: 50%;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.inputsearchbox{
+    border-radius: 0 0px 0 15px;
+    
+    height: 37px;
+   
+}
+.searchbutton{
+    border-radius: 0 15px 0 0;
+    height: 38px;
+}
+
+@media only screen and (max-width:768px) {
+    .searchbox{
+        width:100%;
+        
+    }
+    .loginbutton{
+        padding-left: .7rem;
+        padding-top: .7rem;
+       
+    }
+    .carticon{
+       padding-top: .7rem;
+       
+       width: 100%;
+    }
+   
+    
+}
+
+
+
+@media only screen and (max-width:990px){
+
+    .loginbutton{
+           padding-left: .7rem;
+           padding-top: .7rem;
+           width: 100%;
+          
+       }
+       .carticon{
+          padding-top: .7rem;
+          
+          width: 100%;
+       }
+   }
+   @media only screen and (min-width:991px){
+       .inputsearchbox{
+           margin-left: -100px;
+           width: 70%;
+       }
+   
+   }
+   
+   
+   .loginbutton{
+       margin-left: 1rem;
+   }
